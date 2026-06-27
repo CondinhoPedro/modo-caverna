@@ -1,1 +1,405 @@
-.header,.hero-section{margin-bottom:5%;display:flex}.capa,.header,.test,li{display:flex}.conteudo h2,.num,.valor{font-weight:700}*{box-sizing:border-box}body{margin:0;height:100dvh}.header{height:100px;background-color:#000;justify-content:center;align-items:center;width:100%}.header img{width:200px}.capa{height:600px;width:100%;justify-content:center;align-items:center;padding:20px}.capa img{width:100%;height:100%;border-radius:12px;box-shadow:0 15px 40px rgba(0,0,0,.5)}.hero-section{flex-flow:column;padding:20px}.headline{font-family:arial;font-size:20px;line-height:1.5;text-align:center}.red{color:red}.green,.num,.valor{color:#1cb671}.hero-section p{font-family:Arial;line-height:1.5}.oferta{box-shadow:2px 5px 10px rgba(0,0,0,.5);border-radius:10px;padding-top:10px;margin-top:5%}.statics,.testemunhos{padding:20px}.oferta ul{list-style:none;font-family:Arial;line-height:2}.statics div,.valor{text-align:center;font-family:arial}li{align-items:center}.oferta img{width:20px}.valor{font-size:30px}.test{height:400px;overflow:scroll}.test img{display:inline;width:100%;padding:10px;border-radius:20px;box-shadow:2px 5px 20px rgba(0,0,0,0,.5)}.statics{display:flex;width:100%;justify-content:space-between}.statics div{display:flex;flex-flow:column;justify-content:center;align-self:center;margin:5px;font-size:12px;padding:2px;line-height:.7;border-radius:10px;box-shadow:5px 5px 10px rgba(0,0,0,.5)}.num{font-size:20px}.conteudo{padding:80px 20px;background:#0b0b0b;color:#fff}.conteudo h2 span,.tag{color:#ff3b3b}.container{max-width:1200px;margin:auto}.descricao,.duvidas-container{max-width:700px;text-align:center}.conteudo h2,.tag{margin-bottom:20px}.tag{display:inline-block;padding:8px 18px;background:#181818;border:1px solid #2c2c2c;border-radius:50px;font-size:.9rem;font-weight:600}.conteudo h2{font-size:2.5rem;text-align:center}.descricao{margin:auto auto 60px;color:#bdbdbd;line-height:1.8}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}.card{background:#141414;padding:30px;border-radius:18px;border:1px solid #222;transition:.35s;cursor:pointer}.btn-comprar,.btn-whatsapp,.cta{text-decoration:none;font-weight:700;transition:.3s}.card:hover{transform:translateY(-8px);border-color:#ff3b3b;box-shadow:0 20px 45px rgba(0,0,0,.45),0 0 20px rgba(255,59,59,.18)}.card h3{margin-bottom:15px;font-size:1.3rem}.card p{color:#bdbdbd;line-height:1.7}.cta,.cta-box{margin-top:80px;background:linear-gradient(135deg,#171717,#0d0d0d);border-radius:25px;padding:50px 30px;text-align:center}.cta-box h3{font-size:2rem;margin-bottom:15px}.cta-box p{color:#bdbdbd;margin-bottom:35px;line-height:1.8}.btn-comprar,.cta{display:inline-block;background:#22c55e;color:#fff;padding:18px 42px;border-radius:12px;font-size:1.15rem;animation:1.5s infinite pulse;box-shadow:0 10px 25px rgba(34,197,94,.45)}.btn-comprar:hover,.btn-whatsapp:hover,.cta{background:#16a34a;transform:translateY(-3px)}@keyframes pulse{0%{transform:scale(1);box-shadow:0 0 0 0 rgba(34,197,94,.6)}70%{transform:scale(1.07);box-shadow:0 0 0 18px rgba(34,197,94,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgba(34,197,94,0)}}.duvidas-pagamento{padding:80px 20px;background:linear-gradient(135deg,#0f172a,#1e293b)}.duvidas-container{margin:auto;background:linear-gradient(145deg,#151515,#0d0d0d);border:1px solid #242424;border-radius:20px;padding:45px 30px;box-shadow:0 20px 60px rgba(0,0,0,.4)}.icone{width:80px;height:80px;margin:auto auto 25px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem;background:#22c55e20;border:2px solid #22c55e}.duvidas-container h2{color:#fff;font-size:2rem;margin-bottom:15px}.duvidas-container p{color:#bcbcbc;line-height:1.8;font-size:1rem;margin-bottom:35px}.btn-whatsapp{display:inline-block;color:#fff;background:#22c55e;padding:18px 40px;border-radius:12px;font-size:1rem;animation:1.6s infinite pulseWhatsapp;box-shadow:0 12px 30px rgba(34,197,94,.35)}@keyframes pulseWhatsapp{0%{transform:scale(1);box-shadow:0 0 0 0 rgba(34,197,94,.6)}70%{transform:scale(1.05);box-shadow:0 0 0 18px rgba(34,197,94,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgba(34,197,94,0)}}@media(max-width:768px){.conteudo{padding:60px 18px}.conteudo h2{font-size:2rem}.card{padding:25px}.cta-box,cta{padding:40px 20px}.cta-box h3,.duvidas-container h2{font-size:1.6rem}.btn-comprar,.cta{width:100%;padding:18px;font-size:1rem}.duvidas-container{padding:35px 20px}.btn-whatsapp{display:block;width:100%}}
+.header,
+.hero-section {
+    margin-bottom: 5%;
+    display: flex
+}
+
+.capa,
+.header,
+.test,
+li {
+    display: flex
+}
+
+.conteudo h2,
+.num,
+.valor {
+    font-weight: 700
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: arial;
+    margin: 0;
+    height: 100dvh
+}
+
+.header {
+    height: 100px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.header img {
+    width: 200px
+}
+
+.capa {
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.capa img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5)
+}
+
+.hero-section {
+    flex-flow: column;
+    padding: 20px
+}
+
+.headline {
+    font-family: arial;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center
+}
+
+.red {
+    color: red
+}
+
+.green,
+.num,
+.valor {
+    color: #1cb671
+}
+
+.hero-section p {
+    font-family: Arial;
+    line-height: 1.5
+}
+
+.oferta {
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 5%
+}
+
+.statics,
+.testemunhos {
+    padding: 20px
+}
+
+.oferta ul {
+    list-style: none;
+    font-family: Arial;
+    line-height: 2
+}
+
+.statics div,
+.valor {
+    text-align: center;
+    font-family: arial
+}
+
+li {
+    align-items: center
+}
+
+.oferta img {
+    width: 20px
+}
+
+.valor {
+    font-size: 30px
+}
+
+.test {
+    height: 400px;
+    overflow: scroll
+}
+
+.test img {
+    display: inline;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0, .5)
+}
+
+.statics {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.statics div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+    font-size: 12px;
+    padding: 2px;
+    line-height: .7;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5)
+}
+
+.num {
+    font-size: 20px
+}
+
+.conteudo {
+    padding: 80px 20px;
+    background: #0b0b0b;
+    color: #fff
+}
+
+.conteudo h2 span,
+.tag {
+    color: #ff3b3b
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto
+}
+
+.descricao,
+.duvidas-container {
+    max-width: 700px;
+    text-align: center
+}
+
+.conteudo h2,
+.tag {
+    margin-bottom: 20px
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #181818;
+    border: 1px solid #2c2c2c;
+    border-radius: 50px;
+    font-size: .9rem;
+    font-weight: 600
+}
+
+.conteudo h2 {
+    font-size: 2.5rem;
+    text-align: center
+}
+
+.descricao {
+    margin: auto auto 60px;
+    color: #bdbdbd;
+    line-height: 1.8
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px
+}
+
+.card {
+    background: #141414;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #222;
+    transition: .35s;
+    cursor: pointer
+}
+
+.btn-comprar,
+.btn-whatsapp,
+.cta {
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #ff3b3b;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .45), 0 0 20px rgba(255, 59, 59, .18)
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem
+}
+
+.card p {
+    color: #bdbdbd;
+    line-height: 1.7
+}
+
+.cta,
+.cta-box {
+    margin-top: 80px;
+    background: linear-gradient(135deg, #171717, #0d0d0d);
+    border-radius: 25px;
+    padding: 50px 30px;
+    text-align: center
+}
+
+.cta-box h3 {
+    font-size: 2rem;
+    margin-bottom: 15px
+}
+
+.cta-box p {
+    color: #bdbdbd;
+    margin-bottom: 35px;
+    line-height: 1.8
+}
+
+.btn-comprar,
+.cta {
+    display: inline-block;
+    background: #22c55e;
+    color: #fff;
+    padding: 18px 42px;
+    border-radius: 12px;
+    font-size: 1.15rem;
+    animation: 1.5s infinite pulse;
+    box-shadow: 0 10px 25px rgba(34, 197, 94, .45)
+}
+
+.btn-comprar:hover,
+.btn-whatsapp:hover,
+.cta {
+    background: #16a34a;
+    transform: translateY(-3px)
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, .6)
+    }
+
+    70% {
+        transform: scale(1.07);
+        box-shadow: 0 0 0 18px rgba(34, 197, 94, 0)
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0)
+    }
+}
+
+.duvidas-pagamento {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #0f172a, #1e293b)
+}
+
+.duvidas-container {
+    margin: auto;
+    background: linear-gradient(145deg, #151515, #0d0d0d);
+    border: 1px solid #242424;
+    border-radius: 20px;
+    padding: 45px 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .4)
+}
+
+.icone {
+    width: 80px;
+    height: 80px;
+    margin: auto auto 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: #22c55e20;
+    border: 2px solid #22c55e
+}
+
+.duvidas-container h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 15px
+}
+
+.duvidas-container p {
+    color: #bcbcbc;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 35px
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    color: #fff;
+    background: #22c55e;
+    padding: 18px 40px;
+    border-radius: 12px;
+    font-size: 1rem;
+    animation: 1.6s infinite pulseWhatsapp;
+    box-shadow: 0 12px 30px rgba(34, 197, 94, .35)
+}
+
+@keyframes pulseWhatsapp {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, .6)
+    }
+
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 18px rgba(34, 197, 94, 0)
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0)
+    }
+}
+
+@media(max-width:768px) {
+    .conteudo {
+        padding: 60px 18px
+    }
+
+    .conteudo h2 {
+        font-size: 2rem
+    }
+
+    .card {
+        padding: 25px
+    }
+
+    .cta-box,
+    cta {
+        padding: 40px 20px
+    }
+
+    .cta-box h3,
+    .duvidas-container h2 {
+        font-size: 1.6rem
+    }
+
+    .btn-comprar,
+    .cta {
+        width: 100%;
+        padding: 18px;
+        font-size: 1rem
+    }
+
+    .duvidas-container {
+        padding: 35px 20px
+    }
+
+    .btn-whatsapp {
+        display: block;
+        width: 100%
+    }
+}
